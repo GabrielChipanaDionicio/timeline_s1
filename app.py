@@ -1,10 +1,10 @@
 import streamlit as st
-st.set_page_config(page_title="Sesion 2 | ISIL", layout="centered")
+st.set_page_config(page_title="Sesion 1 | ISIL", layout="centered")
 st.title("Desarrollo de la IA | Timeline")
-st.write("Autor: Jesus Alvarado Huayhuaz | ISIL")
+st.write("Autor: Gabriel Chipana | ISIL")
 st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia de la IA.")
 # URLs de imágenes en GitHub
-base_url = "https://raw.githubusercontent.com/jaalvaradoh/timeline_s1/main/timeline_images/"
+base_url = "https://raw.githubusercontent.com/GabrielChipanaDionicio/timeline_s1/main/timeline_images/"
 imagenes = {
    1: base_url + "timeline1.png",
    2: base_url + "timeline2.png",
